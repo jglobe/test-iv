@@ -1,0 +1,38 @@
+.card {
+  padding: 20px;
+
+  height: fit-content;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+  border-radius: 4px;
+}
+
+.card__tags {
+  padding: 0;
+  margin: 0 0 8px;
+
+  display: flex;
+}
+
+.card__description {
+  padding: 0;
+  margin: 0 0 8px;
+
+  min-height: 32px;
+
+  border: solid 2px transparent;
+}
+
+.tag {
+  padding: 4px 20px;
+  margin-right: 8px;
+
+  border-radius: 4px;
+  color: var(--font-tag-color);
+  background-color: var(--bg-tag-color);
+}

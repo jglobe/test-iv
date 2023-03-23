@@ -1,0 +1,41 @@
+.draft {
+  padding: 20px;
+
+  height: fit-content;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  background-color: var(--bg-card-color);
+
+  border-radius: 4px;
+}
+
+.draft__textarea {
+  padding: 0;
+  margin: 0 0 8px;
+
+  min-height: 32px;
+  width: 100%;
+  resize: none;
+
+  border: solid 2px transparent;
+  border-radius: 4px;
+  outline: none;
+
+  background-color: var(--bg-textarea-color);
+
+}
+
+.draft__tags {
+  padding: 0;
+  margin: 0 0 8px;
+}
+
+.draft__textarea:focus {
+  background-color: var(--bg-card-color);
+  color: var(--font-primary-color);
+  border-color: var(--bg-textarea-color);
+}

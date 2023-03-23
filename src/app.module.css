@@ -1,0 +1,32 @@
+.app {
+  margin: 0 auto;
+  padding: 40px 0;
+
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1280px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--font-primary-color);
+}
+
+:root {
+  --bg-color: #FFFFFA;
+  --bg-card-color: #FFFFFF;
+  --bg-textarea-color: #F5F5F5;
+  --bg-tag-color: #3B429F;
+  --bg-button-color: #006600;
+  --bg-cancel-color: #990000;
+  --font-button-color: #FFFFFF;
+  --font-tag-color: #FFFFFF;
+  --font-primary-color: #071108;
+  --font-secondary-color: #363330;
+}
+

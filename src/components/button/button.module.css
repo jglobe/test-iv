@@ -1,0 +1,37 @@
+
+.button {
+  padding: 4px 20px;
+  margin-right: 8px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--font-button-color);
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button_cancel {
+  background-color: var(--bg-cancel-color);
+  border: solid 2px var(--bg-cancel-color);
+}
+
+.button_save {
+  background-color: var(--bg-button-color);
+  border: solid 2px var(--bg-button-color);
+}
+
+.button__tag_active {
+  background-color: var(--bg-tag-color);
+  border: solid 2px var(--bg-tag-color);
+}
+
+.button__tag__inactive {
+  color: var(--bg-tag-color);
+  background-color: var(--bg-card-color);
+  border: solid 2px var(--bg-tag-color);
+}
